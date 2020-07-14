@@ -10,6 +10,8 @@ function setup() {
   fixedRect.velocityY = +5;
 
   stillrect = createSprite(300,300,30,70);
+  stillrect.debug = true;
+  collisionRect.debug = true;
 
   
   fixedRect.shapeColor = "green";
